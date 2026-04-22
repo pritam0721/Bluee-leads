@@ -129,7 +129,7 @@ export default function WhyChooseUs() {
             const Icon = reason.icon;
             return (
               <div
-                key={reason.id ?? reason.title}
+                key={reason.title}
                 className='why-card group rounded-2xl border border-gray-100 hover:border-blue-200 transition-all duration-300 hover:shadow-lg hover:-translate-y-1'
                 style={{ padding: '2.5rem 2.75rem' }}
               >
